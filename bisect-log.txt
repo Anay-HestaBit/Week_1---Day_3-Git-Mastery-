@@ -1,0 +1,6 @@
+git bisect start
+git bisect bad 3e12b036dc9f53424f32e02e0e67f095e940e28e
+git bisect good 2cd129710060123c10951f7cefe7fa37ee7ec4f2
+git bisect bad 5b0929fef2692654c54281a1ac26d35c546d71c2
+git bisect good fbdef6b0a85b0ef014febab9c9b7c0371ac2480c
+# first bad commit: 5b0929fef2692654c54281a1ac26d35c546d71c2
